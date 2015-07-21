@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ARD2048-Betta</string>
+    <string name="app_name">2048</string>
     <string name="search_title">Search</string>
     <string name="play_title">play</string>
 </resources>

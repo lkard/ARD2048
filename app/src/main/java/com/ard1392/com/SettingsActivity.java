@@ -7,12 +7,12 @@ import android.view.MenuItem;
 
 import com.example.lkard.ard2048.R;
 
-public class main_activity extends Activity {
+public class SettingsActivity extends Activity {
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_settings);
         initToolbar();
     }
 
