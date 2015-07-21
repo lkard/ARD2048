@@ -4,6 +4,12 @@
     <application android:allowBackup="true" android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme">
 
+        <activity android:name="com.ard1392.com.main_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.launcher"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
